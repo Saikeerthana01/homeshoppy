@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navigation Bar</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="homeshoppy.css" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+<body>
+
+<!-- Logo, Search, and Cart -->
+<div class="container py-2" id="nav1">
+  <div class="row align-items-center">
+    <div class="col-md-4">
+      <a class="navbar-brand" href="#">
+        <img src="./majorimages1/shoppylogo.jpg" alt="Your Logo">
+        
+      </a>
+    </div>
+    <div class="col-md-4 search-form">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit" id="search1">Search</button>
+      </form>
+    </div>
+    <div class="col-md-4 text-end">
+     
+        <i class="bi bi-cart-fill me-1"></i><a href="cart.html" alt="cart"><img src="./majorimages1/cart.jpg" alt="" id="cart"></img></a>
+
+      </a>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <div class="container" id="nav2">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+         
+        
+          <li class="nav-item">
+            <a class="nav-link" href="men.html" id="menu">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="women.html" id="menu"> Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="menu">Kids</a>
+          </li>
+          <li><a href="login.html" class="btn" id="login">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1><b><center>GIRLS</center></b></h1>
+    <h1 class="mt-5"><center>GIRLS FROCKS COLLECTION</center> </h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="image-container">
+          <img src="./majorimages1/kgd1.jpg" alt="Image 1">
+        </div>
+        <div><p id="name"> <center><b>Green And Navy Blue</b></center>
+         Rs 4000/-<br>
+          <b>Limited</b><br>
+          Rating:4.8
+        </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+      </div>
+      <div class="col-md-4">
+        <div class="image-container">
+          <img src="./majorimages1/kgd2.jpg" alt="Image 2">
+        </div>
+        <div><p id="name"> <center><b>Navy Blue</b></center>
+          Rs 4500/-<br>
+          
+           Rating:4.6
+         </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+      
+      </div>
+    
+      <div class="col-md-4">
+        <div class="image-container">
+          <img src="./majorimages1/kgd3.jpg" alt="Image 3">
+        </div>
+        <div><p id="name"> <center><b>Light Pink</b></center><br>
+          Rs 4800/-<br>
+         
+           Rating:5.0
+         </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+      </div>
+    
+    </div>
+  </div>
+  <br><br><br>
+  <div class="row">
+    <h1><center>GIRLS TOP COLLECTION</center></h1>
+    <div class="col-md-4">
+      <div class="image-container" id="kgt">
+        <img src="./majorimages1/kgt1.jpg" alt="Image 1">
+      </div>
+      <div><p id="name"> <center><b> Shiny Purple</b></center>
+       Rs 900/-<br>
+        
+        Rating:4.7
+      </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    </div>
+    <div class="col-md-4">
+      <div class="image-container" id="kgt">
+        <img src="./majorimages1/kgt2.jpg" alt="Image 2">
+      </div>
+      <div><p id="name"> <center><b> Shiny Grey</b></center>
+        Rs 1000/-<br>
+         <b>Limited</b><br>
+         Rating:4.5
+       </p></div>
+       <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    
+  
+  </div>
+</div>
+<br><br><br>
+
+<div class="row">
+    <h1><center>NIGHT WEAR COLLECTION</center></h1>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kg1.jpg" alt="Image 1">
+      </div>
+      <div><p id="name"> <center><b>Yellow</b></center>
+       Rs 500/-<br>
+        
+        Rating:4.3
+      </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    </div>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kg2.jpg" alt="Image 2">
+      </div>
+      <div><p id="name"> <center><b>Yellow With Multi Colors</b></center>
+        Rs 700/-<br>
+         <b>Limited</b><br>
+         Rating:5.0
+       </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    
+    </div>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kg3.jpg" alt="Image 3">
+      </div>
+      <div><p id="name"> <center><b>Light Pink</b></center><br>
+        Rs 800/-<br>
+         <b>Limited</b><br>
+         Rating:4.6
+       </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    </div>
+  
+  </div>
+</div>
+<br><br><br>
+<h1><b><center>BOYS</center></b></h1>
+
+<div class="row">
+    <h1><center>SUIT COLLECTION</center></h1>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kbs1.jpg" alt="Image 1">
+      </div>
+      <div><p id="name"> <center><b>Grey</b></center>
+       Rs 2500/-<br>
+        
+        Rating:4.6
+      </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    </div>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kbs2.jpg" alt="Image 2">
+      </div>
+      <div><p id="name"> <center><b>Light Blue</b></center>
+        Rs 3700/-<br>
+         <b>Limited</b><br>
+         Rating:4.5
+       </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    
+    </div>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kbs3.jpg" alt="Image 3">
+      </div>
+      <div><p id="name"> <center><b>Navy Blue</b></center><br>
+        Rs 2900/-<br>
+         <b>Limited</b><br>
+         Rating:5.0
+       </p></div> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    </div>
+  
+  </div>
+</div>
+
+<div class="row">
+    <h1><center>SHIRTS COLLECTION</center></h1>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kb1.jpg" alt="Image 1">
+      </div>
+      <div><p id="name"> <center><b>Black</b></center>
+       Rs 800/-<br>
+        
+        Rating:4.5
+      </p></div>
+      <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    </div>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kb2.jpg" alt="Image 2">
+      </div>
+      <div><p id="name"> <center><b>White</b></center>
+        Rs 900/-<br>
+         <b>Limited</b><br>
+         Rating:5.0
+       </p></div>
+       <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    
+    </div>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kb3.jpg" alt="Image 3">
+      </div>
+      <div><p id="name"> <center><b>Navy Blue</b></center><br>
+        Rs 550/-<br>
+         <b>Limited</b><br>
+         Rating:4.5
+       </p></div>
+       <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    </div>
+  
+  </div>
+</div>
+
+<div class="row">
+    <h1><center>NIGHT WEAR COLLECTION</center></h1>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kbn1.jpg" alt="Image 1">
+      </div>
+      <div><p id="name"> <center><b>Grey and Pink</b></center>
+       Rs 900/-<br>
+        
+        Rating:4.5
+      </p></div>
+      <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    </div>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kbn2.jpg" alt="Image 2">
+      </div>
+      <div><p id="name"> <center><b>Navy Blue</b></center>
+        Rs 800/-<br>
+         <b>Limited</b><br>
+         Rating:4.6
+         <br> <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+       </p></div>
+      
+    
+    </div>
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="./majorimages1/kbn3.jpg" alt="Image 3">
+      </div>
+      <div><p id="name"> <center><b>Light Blue</b></center><br>
+        Rs 500/-<br>
+         <b>Limited</b><br>
+         Rating:4.5
+       </p></div>
+       <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+    </div>
+  
+  </div>
+</div>
+<br><br><br>
+<script>
+    document.getElementById('addToCartBtn').addEventListener('click', function() {
+      
+      alert('Product added to cart!');
+    });
+  </script>
+  
+</body></html>
